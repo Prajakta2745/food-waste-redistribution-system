@@ -1,0 +1,11 @@
+# Database Configuration (PostgreSQL)
+DB_URL=jdbc:postgresql://localhost:5432/food_redistribution_db
+DB_USERNAME=postgres
+DB_PASSWORD=your_secure_password
+
+# JWT Security
+JWT_SECRET=404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+JWT_EXPIRATION=86400000
+
+# CORS Allowed Origins
+CORS_ORIGINS=http://localhost:5173,http://localhost:3000
